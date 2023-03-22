@@ -52,7 +52,7 @@ jobs:
         with:
           client-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_TENANT_ID }}
           tenant-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_CLIENT_ID }}
-          subscription-id: ${{ _subId_ }}
+          subscription-id: d6791cea-23fc-44ab-a870-9b4f28034c61
 
       - name: Deploy to containerapp
         uses: azure/CLI@v1
