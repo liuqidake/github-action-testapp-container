@@ -53,8 +53,8 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_TENANT_ID }}
-          tenant-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_CLIENT_ID }}
+          client-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.CONTAINERAPPCQ2ZQEWABNFWU__AZURE_TENANT_ID }}
           subscription-id: d6791cea-23fc-44ab-a870-9b4f28034c61
 
       - name: Deploy to containerapp
